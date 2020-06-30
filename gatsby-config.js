@@ -12,18 +12,18 @@ module.exports = {
       "css",
       "html",
       "project",
-      "pair coding"
-    ]
+      "pair coding",
+    ],
   },
-  pathPrefix: "/project-fox-game-site",
+  pathPrefix: "/intro-git-workshop",
   plugins: [
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/lessons`,
-        name: "markdown-pages"
-      }
+        name: "markdown-pages",
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -38,11 +38,11 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: true,
-              sizeByPixelDensity: false
-            }
-          }
-        ]
-      }
-    }
-  ]
+              sizeByPixelDensity: false,
+            },
+          },
+        ],
+      },
+    },
+  ],
 };
