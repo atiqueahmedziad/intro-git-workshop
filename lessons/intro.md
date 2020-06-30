@@ -39,7 +39,7 @@ I write these courses and take care to not make mistakes. However when teaching 
 
 ## Who Am I?
 
-![Brian drinking a beer](images/brian.jpg)
+![Brian drinking a beer](images/atique.jpg)
 
 My name is Brian Holt. I'm presently (as of writing) a senior program manager over [Visual Studio Code][vscode] and JavaScript on Azure at Microsoft. That means I'm trying to make Azure a place you want to deploy your code and VSCode the best tool to write code with. I've taught a lot of lessons on [Frontend Masters][frontend-masters] and used to be on the frontend development podcast [Front End Happy Hour][fehh]. Previous to that, I was a cloud advocate for Microsoft and a staff JavaScript / Node.js engineer at LinkedIn, Netflix, Reddit, Needle, KSL.com, and NuSkin. I'm also stoked to be a board member of the amazing organization [Vets Who Code][vwc].
 
