@@ -1,6 +1,6 @@
 path,title,order,description,section
 "/intro","Introduction","1A","This pages ","Welcome"
-"/the-project","The Project","1B","The Project","Welcome"
+"/set-up-instructions","Set Up Instructions","1B","setup","Welcome"
 "/hello-world","Hello World","2A","Brian sets up the build process to get hello world on the screen","Frontend Infra"
 "/build-process","Build Process","2B","The Project","Frontend Infra"
 "/code-style","Code Style","2C","The Project","Frontend Infra"
