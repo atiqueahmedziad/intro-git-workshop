@@ -1,18 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "Project Fox Game",
-    subtitle: "Making a game together",
+    title: "Introduction to Git and Github",
+    subtitle: "Learn Git and Github basics",
     description:
-      "A brief course where we use JavaScript, HTML, and CSS to make a digital pet staring our little fox friend.",
+      "A workshop based of focused on learning the basics of Git and Github. Some real life usages of Git and Github will be demoed in the workshop.",
     keywords: [
-      "javascript",
-      "digital pet",
-      "typescript",
-      "frontend",
-      "css",
-      "html",
-      "project",
-      "pair coding"
+      "git",
+      "github",
+      "basics of git",
+      "basics of github",
+      "project management on github"
     ]
   },
   pathPrefix: "/intro-git-workshop",

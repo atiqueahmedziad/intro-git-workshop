@@ -27,7 +27,7 @@ Hello there! Welcome to "Introduction to Git and Github" workshop. In this works
 
 Before we get off to the races, I have mentioned a few things for you to set up.
 
-#### 1. [Install Git in your pc][git].
+#### 1. [Install Git][git] in your pc.
 
 **Widows users:** After installation, you may find the "Git Bash" option upon clicking the right button. To check if Git is installed correctly, try running the `git --version` command in your git bash / command prompt / powerShell. You will see output like `git version 2.25.0` if git is installed correctly (the version number may differ).
 If you get error like - `'git' is not recongized as an internal or external command` upon running the `git --version` command in command prompt / powerShell, you may need to set the Git path in environment variable of your pc. You can following this [stackoverflow answer][stackoverflow-answer] to acheive that.
