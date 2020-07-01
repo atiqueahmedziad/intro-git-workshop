@@ -3,7 +3,7 @@ path: "/understand-necessity-git-github"
 title: "Understanding the Necessity of Git and Github"
 order: "2A"
 description: "understanding why we need git and github"
-section: "Understanding Necessity of Git"
+section: "Understanding The Necessity"
 ---
 
 ## Why "understanding the necessity" is necessary ?
@@ -23,7 +23,6 @@ Let's start discussing our problems while working on software development projec
 
 ## How Git & Github helped me to solve above problems in my project
 
-For this I am going to demostrate one of my project, i.e. [Easy Project Management Tool][epmt]
-I worked on this project for two semester (Java and Database).
+For this I am going to demostrate one of my project, i.e. [Easy Project Management Tool][epmt], on which I have worked for two semesters (Java and Database).
 
 [epmt]: https://github.com/atiqueahmedziad/Easy-Project-Management-Tool
