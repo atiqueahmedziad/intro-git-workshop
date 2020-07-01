@@ -66,7 +66,7 @@ You can find me on:
 
 ## My Setup
 
-I use Zsh shell with [starship][starship] prompt and [hyper][hyper] as my terminal. I will [Vim][vim] as text editor for this workshop.
+I use [Zsh][zsh] shell with [starship][starship] prompt and [hyper][hyper] as my terminal. I will [Vim][vim] as text editor for this workshop.
 
 [github]: https://github.com/atiqueahmedziad
 [linkedin]: https://www.linkedin.com/in/atiqueahmedziad/
@@ -78,3 +78,4 @@ I use Zsh shell with [starship][starship] prompt and [hyper][hyper] as my termin
 [vim]: https://www.vim.org/
 [gsoc]: https://summerofcode.withgoogle.com/
 [mozilla]: https://www.mozilla.org/en-US/
+[zsh]: http://zsh.org/
