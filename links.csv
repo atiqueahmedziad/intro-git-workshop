@@ -3,7 +3,7 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 1B,Set Up Instructions,https://git-scm.com/downloads,https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command,https://github.com,https://github.com,,,,,,
 2A,Understanding the Necessity of Git and Github,https://github.com/atiqueahmedziad/Easy-Project-Management-Tool,,,,,,,,,
 2B,Frequently Asked Questions,https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line,,,,,,,,,
-3A,Organizing Your Code,,,,,,,,,,
+3A,Git Init,,,,,,,,,,
 3B,Init the Project,,,,,,,,,,
 3C,State Machine,https://xstate.js.org/docs/about/concepts.html#finite-state-machines,https://xstate.js.org/docs/about/concepts.html#finite-state-machines,https://twitter.com/davidkpiano,https://frontendmasters.com/teachers/david-khourshid/,,,,,,
 4A,Some UI,https://btholt.github.io/project-fox-game-site/files.zip,https://frontendmasters.com/learn/css/,https://css-tricks.com/using-multi-step-animations-transitions/,https://frontendmasters.com/learn/css/,,,,,,
