@@ -28,7 +28,7 @@ Hello there! Welcome to "Introduction to Software development with Git and Githu
 
 ![Atique Ahmed Ziad](images/atique.jpg)
 
-I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at [Mozilla][mozilla] as a part of [Google Summer of Code (GSoC)][gsoc]. I worked with Java and Javascript extensively in my software development career.
+I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at [Mozilla][mozilla] as a part of [Google Summer of Code (GSoC)][gsoc]. I have worked with Java and Javascript extensively in my software development career.
 
 Beside that, I am passionate about open source development. I have contributed code to a number of Mozilla projects (open source) that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. Also I have a couple of open source projects in my [GitHub][github]. I love mentoring newcomers in open soruce development.
 
