@@ -12,7 +12,7 @@ Hello there! Welcome to "Introduction to Git and Github" workshop. In this works
 
 - Understand the necessity Git and Github.
 - Learn the basics of Git.
-- Learn how to manage our software development projects at University (Project management on Github).
+- Learn how to manage software projects at University.
 - Learn how to collaborate with others in Github.
 
 ## What is required from you to join this workshop?
@@ -32,7 +32,7 @@ Before we get off to the races, I have mentioned a few things for you to set up.
 **Widows users:** After installation, you may find the "Git Bash" option upon clicking the right button. To check if Git is installed correctly, try running the `git --version` command in your git bash / command prompt / powerShell. You will see output like `git version 2.25.0` if git is installed correctly (the version number may differ).
 If you get error like - `'git' is not recongized as an internal or external command` upon running the `git --version` command in command prompt / powerShell, you may need to set the Git path in environment variable of your pc. You can following this [stackoverflow answer][stackoverflow-answer] to acheive that.
 
-**Linux and Mac users:** To check if Git is installed correctly, try running the `git --version` command in your terminal. You will see output like `git version 2.25.0` if git is installed correctly.. If you get error like `"git" command is not being recongized`, you may have to fix path.
+**Linux and Mac users:** To check if Git is installed correctly, try running the `git --version` command in your terminal. You will see output like `git version 2.25.0` if git is installed correctly (the version number may differ). If you get error like `"git" command is not being recongized`, you may have to fix path.
 
 #### 2. Setting Up Git
 
@@ -57,7 +57,7 @@ We can see all of the configuration items that have been set by typing:
 
 I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at Mozilla (well known for Firefox) on a project as a part of Google Summer of Code (GSoC). I worked with Java and Javascript extensively in my software development career.
 
-Beside that, I am passionate about open source development. In past years, I have contributed code to number of Mozilla projects that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox Devtools, WebExtension API development. I also have a couple of open source projects in my GitHub[github]. I love mentoring newcomers in open soruce development.
+Beside that, I am passionate about open source development. In past years, I have contributed code to number of Mozilla projects that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. I also have a couple of open source projects in my [GitHub][github]. I love mentoring newcomers in open soruce development.
 
 You can find me on:
 
