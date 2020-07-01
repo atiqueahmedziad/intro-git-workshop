@@ -1,5 +1,5 @@
 ---
-path: "/git-init"
+path: "/git-add-commit"
 title: "Git Add and Git Commit"
 order: "3B"
 description: "Git Basics"
