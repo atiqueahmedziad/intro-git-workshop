@@ -27,7 +27,9 @@ $ touch hello-world.cpp
 $ vi hello-world.cpp
 ```
 
-```c++
+Press `i` to insert content. Copy and paste the following content.
+
+```cpp
 #include <iostream>
 
 int main() {
@@ -35,6 +37,8 @@ int main() {
   return 0;
 }
 ```
+
+Press `esc` key and `:wq` to write and quit vim.
 
 ### Git init
 
