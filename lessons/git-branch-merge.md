@@ -36,7 +36,7 @@ $ git checkout new-branch-name
 ## Merge A Branch
 
 ```shell
-$ git merge new-branch-name
+$ git merge branch-name
 ```
 
 ## Delete A Local Branch
