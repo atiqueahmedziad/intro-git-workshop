@@ -55,7 +55,7 @@ We can see all of the configuration items that have been set by typing:
 
 ![Atique Ahmed Ziad](images/atique.jpg)
 
-I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at Mozilla (well known for Firefox) on a project as a part of Google Summer of Code (GSoC). I worked with Java and Javascript extensively in my software development career.
+I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at Mozilla (well known for Firefox) on a project as a part of [Google Summer of Code (GSoC)][gsoc]. I worked with Java and Javascript extensively in my software development career.
 
 Beside that, I am passionate about open source development. In past years, I have contributed code to number of Mozilla projects that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. I also have a couple of open source projects in my [GitHub][github]. I love mentoring newcomers in open soruce development.
 
@@ -76,3 +76,4 @@ I use Zsh shell with [starship][starship] prompt and [hyper][hyper] as my termin
 [motif]: https://wemotif.com/
 [hyper]: https://hyper.is/
 [vim]: https://www.vim.org/
+[gsoc]: https://summerofcode.withgoogle.com/
