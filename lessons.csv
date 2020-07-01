@@ -1,7 +1,7 @@
 path,title,order,description,section
 "/intro","Introduction","1A","This pages ","Welcome"
 "/set-up-instructions","Set Up Instructions","1B","setup","Welcome"
-"/understand-necessity-git-github","Understanding the Necessity of Git and Github","2A","understanding why we need git and github","Understanding Necessity of Git"
+"/understand-necessity-git-github","Understanding the Necessity of Git and Github","2A","understanding why we need git and github","Understanding The Necessity"
 "/organization","Organizing Your Code","3A","The Project","Architecture"
 "/init","Init the Project","3B","The Project","Architecture"
 "/state-machine","State Machine","3C","The Project","Architecture"
