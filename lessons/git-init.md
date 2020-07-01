@@ -6,7 +6,7 @@ description: "Git Basics"
 section: "Git Basics"
 ---
 
-### Prepare the directory and files
+## Prepare the directory and files
 
 1. Let's make a new directory named `git-workshop` in our desktop. We can use the following command to achieve that -
 
@@ -40,7 +40,7 @@ int main() {
 
 Press `esc` key and `:wq` to write and quit vim.
 
-### Git init
+## Git init
 
 Create an empty Git repository or reinitialize an existing one. A hidden folder named `.git` is being added in the directory.
 
