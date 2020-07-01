@@ -6,5 +6,5 @@ path,title,order,description,section
 "/git-init","Git Init","3A","Git Basics","Git Basics: Part-1"
 "/git-add-commit","Git Add and Git Commit","3B","Git Basics","Git Basics: Part-1"
 "/git-workflow","Git Workflow","3C","Git Basics","Git Basics: Part-1"
-"/git-branch","Git Branch","3D","Git Basics","Git Basics: Part-1"
+"/git-branch-merge","Git Branch & Merge","3D","Git Basics","Git Basics: Part-1"
 "/conclusion","Wrapping Up","5A","The Project","Conclusion"
