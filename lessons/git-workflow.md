@@ -1,7 +1,7 @@
 ---
 path: "/git-workflow"
 title: "Git Workflow"
-order: "3B"
+order: "3C"
 description: "Git Basics"
 section: "Git Basics: Part-1"
 ---
