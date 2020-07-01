@@ -1,7 +1,7 @@
 ---
-path: "/git-add-commit"
+path: "/git-branch"
 title: "Git Branch"
-order: "3B"
+order: "3D"
 description: "Git Basics"
 section: "Git Basics: Part-1"
 ---
