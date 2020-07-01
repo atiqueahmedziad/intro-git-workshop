@@ -3,31 +3,38 @@ path: "/intro"
 title: "Introduction"
 order: "1A"
 section: "Welcome"
-description: "Brian Holt lays out the course objectives, his background, and where to file issues with the course as well as why he created this course: he believes that containers are going to be important to every developer going forward."
+description: "This pages "
 ---
 
 ## Course Objective
 
-Hello! And welcome to the Fox Game Project course! The objective of this course is to give you a peak into how I solve problems. I've been a professional developer for over a decade and coding much longer than that. I'm not saying I'm the best dev or even necessarily one you want model your own thinking after, but I do believe I'm an efficient developer who regularly ships good code. Hopefully along the way you can pick up some different ways of approaching problems and that can help you sharpen your own way of thinking about writing code.
+Hello there! Welcome to "Introduction to Git and Github" workshop. In this workshop, we are aiming to learn the following:
 
-This course isn't intended to teach you anything new. That is to say, the objective of this course is take code skills you have and apply them to building a project, one that we'll build together along the way. I'm sure some of the things I show you along the way will be helpful and I'll be sure to explain things along the way, but the purpose here is for you and me to pair code a new project along the way.
+- Understand the necessity Git and Github.
+- Learn the basics of Git.
+- Learn how to manage our software development projects at University (Project management on Github).
+- Learn how to collaborate with your mates in Github.
 
-Let's have fun!
+## What is required from you to join this workshop?
 
-## Who Are You?
-
-You are a frontend developer.
-
-This course isn't intended to teach how to become a frontend developer, there two courses on Frontend Masters I'd recommend you look at for that: [the Bootcamp][bootcamp] and [Intro to Web Dev v2][web-dev], both courses with me as a teacher (the Bootcamp has the amazing Jen Kramer, too.)
-
-So you should have a beginner level grasp at least of HTML, JavaScript, and CSS. If you don't feel comfortable yet with any or all of those, please take one of the above courses first; you'll get more out of this course then. If you've used Node.js to use tools (like Webpack or TypeScript) before, that'll help too. We'll only lightly dabble with those tools, so it's okay if this will be your first time with them.
+- You have eagerness to learn Git and Github.
+- You have willingness use Git and Github in your real life project.
+- You may want to contribute to open soruce projects.
+- You want to work collaborately with your project mates.
+- You want to work smartly in your software projects.
 
 ## Set Up Instructions
 
 Before we get off to the races, I have a few things I would love for you to set up.
 
-1. [Install Node.js][nodejs]. This lists many ways of installing Node.js and it's up to you which one to choose. I use [nvm][nvm].
-1. [Install Visual Studio Code][vscode]! This is optional, obviously, but I'll be sharing a lot about VSCode as we go, and who knows, if you're not using it already you might like it!
+1. [Install Git in your pc][git].
+
+   **Widows users:** After installation, you may find the "Git Bash" option upon clicking the right button. To check if Git is installed correctly, try running the `git` command in your git bash / command prompt / powerShell. You will see a bunch of information in git bash / command prompt / powerShell, if git is installed correctly.
+   If you get error like - `'git' is not recongized as an internal or external command` upon running the `git` command in command prompt / powerShell, you may need to set the Git path in environment variable of your pc. You can following this [stackoverflow answer][stackoverflow-answer] to acheive that.
+
+   **Linux and Mac users:** After installing Git, you
+
+1) [Install Visual Studio Code][vscode]! This is optional, obviously, but I'll be sharing a lot about VSCode as we go, and who knows, if you're not using it already you might like it!
 
 ## Font, Theme, and Prompt
 
@@ -80,3 +87,5 @@ And hey, if you could take a second and [star the repo on GitHub][gh] I'd be sup
 [ligatures]: https://jareddev.com/blog/post/vs-code-upgrade-your-font-ligatures
 [spaceship]: https://denysdovhan.com/spaceship-prompt/
 [cascadia]: https://github.com/microsoft/cascadia-code#installation
+[git]: https://git-scm.com/downloads
+[stackoverflow-answer]: https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command
