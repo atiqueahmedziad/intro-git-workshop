@@ -38,7 +38,7 @@ If you get error like - `'git' is not recongized as an internal or external comm
 
 Now that you have Git installed, you should configure it so that the generated commit messages will contain your correct information. This can be achieved by using the git config command. Specifically, we need to provide our name and email address because Git embeds this information into each commit we do. We can go ahead and add this information by typing:
 
-```
+```shell
  $ git config --global user.name "Your Name"
  $ git config --global user.email "youremail@domain.com"
 ```
@@ -47,7 +47,7 @@ Now that you have Git installed, you should configure it so that the generated c
 
 We can see all of the configuration items that have been set by typing:
 
-```
+```shell
  $ git config --list
 ```
 
