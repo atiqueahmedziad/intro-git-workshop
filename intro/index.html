@@ -57,31 +57,23 @@
 <ul>
 <li>You have eagerness to learn Git and Github.</li>
 <li>You have willingness use Git and Github in your real life project.</li>
-<li>You may want to contribute to open soruce projects.</li>
+<li>You like open source and may want to contribute to open source.</li>
 <li>You want to work collaborately with your project mates.</li>
 <li>You want to work smartly in your software projects.</li>
 </ul>
 <h2 id="set-up-instructions"><a href="#set-up-instructions" aria-label="set up instructions permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set Up Instructions</h2>
-<p>Before we get off to the races, I have a few things I would love for you to set up.</p>
-<ol>
-<li>
-<p><a href="https://git-scm.com/downloads">Install Git in your pc</a>.</p>
+<p>Before we get off to the races, I have mentioned a few things for you to set up.</p>
+<h4 id="1-install-git-in-your-pc"><a href="#1-install-git-in-your-pc" aria-label="1 install git in your pc permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. <a href="https://git-scm.com/downloads">Install Git in your pc</a>.</h4>
 <p><strong>Widows users:</strong> After installation, you may find the "Git Bash" option upon clicking the right button. To check if Git is installed correctly, try running the <code class="language-text">git --version</code> command in your git bash / command prompt / powerShell. You will see output like <code class="language-text">git version 2.25.0</code> if git is installed correctly (the version number may differ).
 If you get error like - <code class="language-text">&#39;git&#39; is not recongized as an internal or external command</code> upon running the <code class="language-text">git --version</code> command in command prompt / powerShell, you may need to set the Git path in environment variable of your pc. You can following this <a href="https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command">stackoverflow answer</a> to acheive that.</p>
 <p><strong>Linux and Mac users:</strong> To check if Git is installed correctly, try running the <code class="language-text">git --version</code> command in your terminal. You will see output like <code class="language-text">git version 2.25.0</code> if git is installed correctly.. If you get error like <code class="language-text">&quot;git&quot; command is not being recongized</code>, you may have to fix path.</p>
-</li>
-<li>
-<p>Setting Up Git
-Now that you have Git installed, you should configure it so that the generated commit messages will contain your correct information. This can be achieved by using the git config command. Specifically, we need to provide our name and email address because Git embeds this information into each commit we do. We can go ahead and add this information by typing:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ git config --global user.name &quot;Your Name&quot;
-$ git config --global user.email &quot;youremail@domain.com&quot;</code></pre></div>
-<p><strong>NOTE:</strong> don't use <code class="language-text">&quot;&quot;</code>. It is used for highlighting.
-We can see all of the configuration items that have been set by typing:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ git config --list</code></pre></div>
-</li>
-</ol>
-<h2 id="font-theme-and-prompt"><a href="#font-theme-and-prompt" aria-label="font theme and prompt permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Font, Theme, and Prompt</h2>
-<p>I use <a href="https://dank.sh/">Dank Mono</a> with <a href="https://jareddev.com/blog/post/vs-code-upgrade-your-font-ligatures">ligatures enabled</a> and the default Dark+ theme for VSCode. For my shell, I use zsh with the <a href="https://denysdovhan.com/spaceship-prompt/">Spaceship ZSH</a> prompt. I did pay for the Dank font (years ago, still use it and love it so totally worth it) but I know not everyone wants to pay for a font. <a href="https://github.com/microsoft/cascadia-code#installation">Cascadia Code</a> from Microsoft is a great free code font with ligatures and what I use in the terminal.</p>
+<h4 id="2-setting-up-git"><a href="#2-setting-up-git" aria-label="2 setting up git permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Setting Up Git</h4>
+<p>Now that you have Git installed, you should configure it so that the generated commit messages will contain your correct information. This can be achieved by using the git config command. Specifically, we need to provide our name and email address because Git embeds this information into each commit we do. We can go ahead and add this information by typing:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> $ git config --global user.name &quot;Your Name&quot;
+ $ git config --global user.email &quot;youremail@domain.com&quot;</code></pre></div>
+<p><strong>NOTE:</strong> don't use <code class="language-text">&quot;&quot;</code>. It is used for highlighting.</p>
+<p>We can see all of the configuration items that have been set by typing:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> $ git config --list</code></pre></div>
 <h2 id="who-am-i"><a href="#who-am-i" aria-label="who am i permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Who Am I?</h2>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -113,43 +105,12 @@ We can see all of the configuration items that have been set by typing:</p>
       />
   </a>
     </span></p>
-<p>I am Atique Ahmed Ziad. I am working as a front-end developer at Motif, where we build e-commerce websites (mostly over shopify) and develop apps for shopify. Currently, (as of writing) I am working as a student developer at Mozilla (well known for Firefox) on a project as a part of Google Summer of Code (GSoC). I worked with Java and Javascript extensively in my software development career.</p>
-<p>Beside that, I am passionate about open source development. In past years, I have contributed code to number of Mozilla projects that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox Devtools, WebExtension API development. I love mentoring newcomers in open soruce development.</p>
+<p>I am Atique Ahmed Ziad. I am working as a front-end developer at <a href="https://wemotif.com/">Motif</a>, where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at Mozilla (well known for Firefox) on a project as a part of Google Summer of Code (GSoC). I worked with Java and Javascript extensively in my software development career.</p>
+<p>Beside that, I am passionate about open source development. In past years, I have contributed code to number of Mozilla projects that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox Devtools, WebExtension API development. I also have a couple of open source projects in my GitHub<a href="https://github.com/atiqueahmedziad">github</a>. I love mentoring newcomers in open soruce development.</p>
 <p>You can find me on:</p>
 <ul>
-<li><a href="https://github.com/btholt">GitHub</a></li>
-<li><a href="https://www.linkedin.com/in/btholt/">LinkedIn</a></li>
+<li><a href="https://github.com/atiqueahmedziad">GitHub</a></li>
+<li><a href="https://www.linkedin.com/in/atiqueahmedziad/">LinkedIn</a></li>
 </ul>
-<h2 id="why-was-this-course-created"><a href="#why-was-this-course-created" aria-label="why was this course created permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why was this course created?</h2>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/81109/FrontendMastersLogo.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 25.497630331753555%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA40lEQVQY03XQvQ4BQRAH8D3RiYIEkSC+Yu9iNz4SDbvLhSh1KvECSpVOTaGm4Q1ER4PDi/nv4YgwyS+zubuZ2xkipSQ6FDIYz+wqtGwyrVUN8iPOjPq+vL9TSv0sesWV0RAKhlDfWfnwidHgn58QUm80CG6Zxo0yEIckZCHRFSIVaXdi21JxcikW+kdG97DRzR1OLeQeSBCQcbsKIXTDnHo0LQF/ZmlLWa40W9V1hXdujI5O3Bw73FyieAFzWMEEZjDwdueNjh2+sv3x/MCtgMNoVJ+3Zk6P5j9z09sb3hnuuIg7qlxLZCeZB9MAAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="Frontend Masters Logo"
-        title="Frontend Masters Logo"
-        src="/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/34e8a/FrontendMastersLogo.png"
-        srcset="/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/d4214/FrontendMastersLogo.png 150w,
-/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/135ae/FrontendMastersLogo.png 300w,
-/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/34e8a/FrontendMastersLogo.png 600w,
-/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/fea0e/FrontendMastersLogo.png 900w,
-/intro-git-workshop/static/39f7bb6766b927bbd2cd2ce5dd89bd1d/81109/FrontendMastersLogo.png 1055w"
-        sizes="(max-width: 600px) 100vw, 600px"
-      />
-  </a>
-    </span></p>
-<p>I love to teach. It's a challenging task that forces you to peel back all the knowledge you've gained so you can approach someone who lacks the same experience and terminology you have. It forces you to take amorphous concepts floating in your brain and crystalize them into solid concepts that you can describe. It forces you to acknowledge your gaps in knowledge because you'll begin to question things you know others will question. For me to ever master a concept, I have to teach it to someone else.</p>
-<p>Unfortunately life gets in the way. These courses take dozens of hours to prepare and to get right. While I'd love to just create content all day, I have a (awesome) day job at Microsoft that demands and deserves my full attention. However I'm grateful to the team at <a href="https://frontendmasters.com/">Frontend Masters</a> for giving me deadlines and incentive to create these courses and then allowing and encouraging me to open source the materials. Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. I think the video content is pretty good too and so I'd encourage you to <a href="https://frontendmasters.com/courses/complete-intro-containers/">take a look at the videos on Frontend Masters</a> too if that's in the cards for you.</p>
-<p>And hey, if you could take a second and <a href="https://github.com/btholt/project-fox-game-site">star the repo on GitHub</a> I'd be super appreciative. It helps me reach more people.</p></div><div class="lesson-links"><a class="next" href="/intro-git-workshop/the-project">The Project →</a></div></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/intro";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c285bca4271941c8f5b8.js"],"component---src-templates-lesson-template-js":["/component---src-templates-lesson-template-js-1be5d93bc38c41435e78.js"],"component---src-pages-404-js":["/component---src-pages-404-js-220041b1632f305c1a77.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b92671cd245d89082c33.js"]};/*]]>*/</script><script src="/intro-git-workshop/component---src-templates-lesson-template-js-1be5d93bc38c41435e78.js" async=""></script><script src="/intro-git-workshop/app-c285bca4271941c8f5b8.js" async=""></script><script src="/intro-git-workshop/commons-377568607240eca9ad24.js" async=""></script><script src="/intro-git-workshop/styles-a9a0e1db9059ee65c053.js" async=""></script><script src="/intro-git-workshop/webpack-runtime-b4256e6c2e1475e9a360.js" async=""></script></body></html>
+<h2 id="my-setup"><a href="#my-setup" aria-label="my setup permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>My Setup</h2>
+<p>I use Zsh shell with <a href="https://starship.rs/">starship</a> prompt and <a href="https://hyper.is/">hyper</a> as my terminal. I will <a href="https://www.vim.org/">Vim</a> as text editor for this workshop.</p></div><div class="lesson-links"><a class="next" href="/intro-git-workshop/the-project">The Project →</a></div></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/intro";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c285bca4271941c8f5b8.js"],"component---src-templates-lesson-template-js":["/component---src-templates-lesson-template-js-1be5d93bc38c41435e78.js"],"component---src-pages-404-js":["/component---src-pages-404-js-220041b1632f305c1a77.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b92671cd245d89082c33.js"]};/*]]>*/</script><script src="/intro-git-workshop/component---src-templates-lesson-template-js-1be5d93bc38c41435e78.js" async=""></script><script src="/intro-git-workshop/app-c285bca4271941c8f5b8.js" async=""></script><script src="/intro-git-workshop/commons-377568607240eca9ad24.js" async=""></script><script src="/intro-git-workshop/styles-a9a0e1db9059ee65c053.js" async=""></script><script src="/intro-git-workshop/webpack-runtime-b4256e6c2e1475e9a360.js" async=""></script></body></html>
