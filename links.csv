@@ -1,6 +1,6 @@
 order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 1A,Introduction,https://wemotif.com/,https://www.mozilla.org/en-US/,https://summerofcode.withgoogle.com/,https://github.com/atiqueahmedziad,https://github.com/atiqueahmedziad,https://www.linkedin.com/in/atiqueahmedziad/,http://zsh.org/,https://starship.rs/,https://hyper.is/,https://www.vim.org/
-1B,Set Up Instructions,https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command,https://github.com,https://github.com,,,,,,,
+1B,Set Up Instructions,https://git-scm.com/downloads,https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command,https://github.com,https://github.com,,,,,,
 2A,Hello World,https://github.com/btholt/project-files-for-fox-game,https://github.com/btholt/project-files-for-fox-game/tree/master/start-here,,,,,,,,
 2B,Build Process,https://caniuse.com/#feat=es6-module,http://browserify.org/,https://www.snowpack.dev/,https://rollupjs.org/guide/en/,https://github.com/developit/microbundle,https://parceljs.org/,http://localhost:1234,https://github.com/btholt/project-files-for-fox-game/tree/master/build-process,,
 2C,Code Style,,,,,,,,,,
