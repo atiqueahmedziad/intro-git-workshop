@@ -12,8 +12,8 @@ module.exports = {
       "css",
       "html",
       "project",
-      "pair coding",
-    ],
+      "pair coding"
+    ]
   },
   pathPrefix: "/intro-git-workshop",
   plugins: [
@@ -22,8 +22,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/lessons`,
-        name: "markdown-pages",
-      },
+        name: "markdown-pages"
+      }
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -36,13 +36,13 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
+              maxWidth: 600,
               linkImagesToOriginal: true,
-              sizeByPixelDensity: false,
-            },
-          },
-        ],
-      },
-    },
-  ],
+              sizeByPixelDensity: false
+            }
+          }
+        ]
+      }
+    }
+  ]
 };
