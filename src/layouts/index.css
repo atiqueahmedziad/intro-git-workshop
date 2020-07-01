@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.navbar-brand {
+  white-space: break-spaces !important;
+}
+
 .navbar h1 {
   font-size: 20px;
   margin: inherit;
