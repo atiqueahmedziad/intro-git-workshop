@@ -43,7 +43,6 @@ I use [Zsh][zsh] shell with [starship][starship] prompt and [hyper][hyper] as my
 [github]: https://github.com/atiqueahmedziad
 [linkedin]: https://www.linkedin.com/in/atiqueahmedziad/
 [starship]: https://starship.rs/
-[git]: https://git-scm.com/downloads
 [motif]: https://wemotif.com/
 [hyper]: https://hyper.is/
 [vim]: https://www.vim.org/

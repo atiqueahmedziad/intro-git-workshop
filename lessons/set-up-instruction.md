@@ -6,8 +6,6 @@ description: "setup"
 section: "Welcome"
 ---
 
-## Set Up Instructions
-
 Before we get off to the races, I have mentioned a few things for you to set up.
 
 #### 1. [Install Git][git] in your pc.
@@ -38,7 +36,8 @@ You should find the `user.name` and `user.email` property to be set.
 
 #### 3. Open account in [GitHub][github]
 
-You need to open an account at GitHub[github] if you don't have one already.
+You need to open an account at [GitHub][github] if you don't have one already.
 
+[git]: https://git-scm.com/downloads
 [github]: https://github.com
 [stackoverflow-answer]: https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command
