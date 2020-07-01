@@ -34,13 +34,14 @@ Press `i` to insert content. Copy and paste the following content.
 
 int main() {
   std::cout << "Hello World!";
+  std::getchar();
   return 0;
 }
 ```
 
 Press `esc` key and `:wq` to write and quit vim.
 
-## Git init
+## Git [init]
 
 Create an empty Git repository or reinitialize an existing one. A hidden folder named `.git` is being added in the directory.
 
