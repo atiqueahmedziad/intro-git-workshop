@@ -8,7 +8,7 @@ description: "This pages "
 
 ## Workshop Objective
 
-Hello there! Welcome to "Introduction to Git and Github" workshop. In this workshop, we are aiming to learn the following:
+Hello there! Welcome to "Introduction to Software development with Git and Github" workshop. In this workshop, we are aiming to learn the following:
 
 - Understand the necessity Git and Github.
 - Learn the basics of Git.
