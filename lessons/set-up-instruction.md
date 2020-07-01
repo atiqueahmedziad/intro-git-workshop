@@ -6,7 +6,7 @@ description: "setup"
 section: "Welcome"
 ---
 
-Before we get off to the races, I have mentioned a few things for you to set up.
+Before we get off to the races, I have mentioned a few things for you in the following to set up.
 
 #### 1. [Install Git][git] in your pc.
 

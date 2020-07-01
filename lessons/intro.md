@@ -14,6 +14,7 @@ Hello there! Welcome to "Introduction to Git and Github" workshop. In this works
 - Learn the basics of Git.
 - Learn how to manage software projects at University.
 - Learn how to collaborate with others in Github.
+- Get familiar with Git command line
 
 ## What is required from you to join this workshop?
 
@@ -27,9 +28,9 @@ Hello there! Welcome to "Introduction to Git and Github" workshop. In this works
 
 ![Atique Ahmed Ziad](images/atique.jpg)
 
-I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at [Mozilla][mozilla] on a project as a part of [Google Summer of Code (GSoC)][gsoc]. I worked with Java and Javascript extensively in my software development career.
+I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at [Mozilla][mozilla] as a part of [Google Summer of Code (GSoC)][gsoc]. I worked with Java and Javascript extensively in my software development career.
 
-Beside that, I am passionate about open source development. In past years, I have contributed code to a number of Mozilla projects that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. I also have a couple of open source projects in my [GitHub][github]. I love mentoring newcomers in open soruce development.
+Beside that, I am passionate about open source development. I have contributed code to a number of Mozilla projects (open source) that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. Also I have a couple of open source projects in my [GitHub][github]. I love mentoring newcomers in open soruce development.
 
 You can find me on:
 
