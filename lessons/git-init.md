@@ -3,7 +3,7 @@ path: "/git-init"
 title: "Git Init"
 order: "3A"
 description: "Git Basics"
-section: "Git Basics"
+section: "Git Basics: Part-1"
 ---
 
 ## Prepare the directory and files
@@ -41,7 +41,7 @@ int main() {
 
 Press `esc` key and `:wq` to write and quit vim.
 
-## Git [init]
+## Git [Init]
 
 Create an empty Git repository or reinitialize an existing one. A hidden folder named `.git` is being added in the directory.
 
