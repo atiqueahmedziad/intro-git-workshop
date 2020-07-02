@@ -7,6 +7,7 @@ path,title,order,description,section
 "/git-add-commit","Git Add and Git Commit","3B","Git Basics","Git Basics: Part-1"
 "/git-workflow","Git Workflow","3C","Git Basics","Git Basics: Part-1"
 "/git-branch-merge","Git Branch & Merge","3D","Git Basics","Git Basics: Part-1"
+"/git-exercise-part-1","Exercise","3E","Git Basics","Git Basics: Part-1"
 "/github-open-repository","Github Open New Repository And Git Push","4A","Github Basics","Github Basics"
 "/github-fork-clone","Github Repository Fork And Clone","4B","Github Basics","Github Basics"
 "/github-pull-request","Github Pull Request","4C","Github Basics","Github Basics"
