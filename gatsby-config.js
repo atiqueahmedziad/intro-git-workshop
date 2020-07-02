@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Introduction to software development with Git and Github",
+    title: "Introduction to VCS with Git and Github",
     subtitle: "Learn Git and Github basics",
     description:
       "A workshop based of focused on learning the basics of Git and Github. Some real life usages of Git and Github will be demoed in the workshop.",
