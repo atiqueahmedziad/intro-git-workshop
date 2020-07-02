@@ -9,7 +9,7 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 3D,Git Branch & Merge,,,,,,,,,,
 3E,Exercise,,,,,,,,,,
 4A,Github Open New Repository And Git Push,,,,,,,,,,
-4B,Github Repository Fork And Clone,,,,,,,,,,
+4B,Github Repository Fork And Clone,https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo,,,,,,,,,
 4C,Github Pull Request,,,,,,,,,,
 5A,Git Pull and Rebase,,,,,,,,,,
 5B,.gitignore File,,,,,,,,,,
