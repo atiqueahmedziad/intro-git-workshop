@@ -41,6 +41,8 @@ You can find me on:
 
 I use [Zsh][zsh] shell with [starship][starship] prompt and [hyper][hyper] as my terminal. I will [Vim][vim] as text editor for this workshop.
 
+I got a nice article about [why you should use zsh][why-zsh]. You can read about it.
+
 [github]: https://github.com/atiqueahmedziad
 [linkedin]: https://www.linkedin.com/in/atiqueahmedziad/
 [starship]: https://starship.rs/
@@ -50,3 +52,4 @@ I use [Zsh][zsh] shell with [starship][starship] prompt and [hyper][hyper] as my
 [gsoc]: https://summerofcode.withgoogle.com/
 [mozilla]: https://www.mozilla.org/en-US/
 [zsh]: http://zsh.org/
+[why-zsh]: https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/

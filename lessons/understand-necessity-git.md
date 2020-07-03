@@ -16,7 +16,6 @@ In this workshop, we will be learning about Git and Github. Before starting lear
 
 Let's start discussing our problems while working on software development projects at University -
 
-- Files are not organized.
 - One's files are not working on other's computer. Several bugs are being found while trying to run another person's project files.
 - We are not being able to work parallelly with our teammates.
 - The software is broken at the deadline / final submission.

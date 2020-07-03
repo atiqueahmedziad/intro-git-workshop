@@ -19,7 +19,7 @@
 }
 
 .navbar-brand {
-  white-space: break-spaces !important;
+  white-space: pre-line !important;
 }
 
 .navbar h1 {
