@@ -7,7 +7,6 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 3B,Git Add and Git Commit,https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History,,,,,,,,,
 3C,Git Workflow,,,,,,,,,,
 3D,Git Branch & Merge,,,,,,,,,,
-3E,Git Exercise Part-2,,,,,,,,,,
 3E,Git Exercise Part-1,,,,,,,,,,
 4A,Github Open New Repository And Git Push,,,,,,,,,,
 4B,Github Repository Fork And Clone,https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo,,,,,,,,,
@@ -16,4 +15,5 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 5A,Git Pull and Rebase,,,,,,,,,,
 5B,Git Merge Conflict (Bonus),,,,,,,,,,
 5C,.gitignore File,,,,,,,,,,
+5D,Git Exercise Part-2,,,,,,,,,,
 6A,Wrapping Up,,,,,,,,,,
