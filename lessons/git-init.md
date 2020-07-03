@@ -6,6 +6,10 @@ description: "Git Basics"
 section: "Git Basics: Part-1"
 ---
 
+## What is Git
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
 ## Prepare the directory and files
 
 1. Let's make a new directory named `git-workshop` in our desktop. We can use the following command to achieve that -
@@ -18,13 +22,13 @@ $ mkdir git-workshop
 
 ```shell
 $ cd git-workshop
-$ touch hello-world.cpp
+$ touch helloWorld.cpp
 ```
 
 3. Add some content in these files. To achieve that we can use vim.
 
 ```shell
-$ vi hello-world.cpp
+$ vi helloWorld.cpp
 ```
 
 Press `i` to insert content. Copy and paste the following content.
