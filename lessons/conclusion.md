@@ -6,4 +6,4 @@ description: "Conclusion"
 section: "Conclusion"
 ---
 
-And that's a wrap!
+incoming!

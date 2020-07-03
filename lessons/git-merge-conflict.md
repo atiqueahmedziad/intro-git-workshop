@@ -6,4 +6,4 @@ description: "Git Basics"
 section: "Git Basics: Part-2"
 ---
 
-Git Merge Conflict
+incoming!
