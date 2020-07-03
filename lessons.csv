@@ -13,5 +13,6 @@ path,title,order,description,section
 "/github-pull-request","Github Pull Request","4C","Github Basics","Github Basics"
 "/github-exercise","Github Exercise","4D","Github Basics","Github Basics"
 "/git-pull-rebase","Git Pull and Rebase","5A","Git Basics","Git Basics: Part-2"
-"/gitignore",".gitignore File","5B","Git Basics","Git Basics: Part-2"
+"/git-merge-conflict","Git Merge Conflict","5B","Git Basics","Git Basics: Part-2"
+"/gitignore",".gitignore File","5C","Git Basics","Git Basics: Part-2"
 "/conclusion","Wrapping Up","6A","Conclusion","Conclusion"
