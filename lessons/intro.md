@@ -8,13 +8,13 @@ description: "This pages "
 
 ## Workshop Objective
 
-Hello there! Welcome to "Introduction to Software development with Git and Github" workshop. In this workshop, we are aiming to learn the following:
+Hello there! Welcome to "Introduction to VCS with Git and Github" workshop. In this workshop, we are aiming to learn the following:
 
 - Understand the necessity Git and Github.
 - Learn the basics of Git.
 - Learn how to manage software projects at University.
 - Learn how to collaborate with others in Github.
-- Get familiar with Git command line
+- Get familiar with Git command line.
 
 ## What is required from you to join this workshop?
 
@@ -28,9 +28,9 @@ Hello there! Welcome to "Introduction to Software development with Git and Githu
 
 ![Atique Ahmed Ziad](images/atique.jpg)
 
-I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions and develop apps for shopify. Currently, (as of writing) I am working as a student developer at [Mozilla][mozilla] as a part of [Google Summer of Code (GSoC)][gsoc]. I have worked with Java and Javascript extensively in my software development career.
+I am Atique Ahmed Ziad. I am working as a front-end developer at [Motif][motif], where we provide e-commerce solutions for brands, agencies and develop apps for shopify. Currently, (as of writing) I am working as a student developer at [Mozilla][mozilla] as a part of [Google Summer of Code (GSoC)][gsoc]. I have worked with Java and Javascript extensively for last few years.
 
-Beside that, I am passionate about open source development. I have contributed code to a number of Mozilla projects (open source) that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. Also I have a couple of open source projects in my [GitHub][github]. I love mentoring newcomers in open soruce development.
+Beside that, I am passionate about open source development. I have contributed code to a number of Mozilla projects (open source) that includes Firefox OS development, Firefox Marketplace, Firefox Add-ons, Firefox DevTools, WebExtension API development. Also I have a couple of open source projects available in my [GitHub][github]. I love mentoring newcomers in open soruce development.
 
 You can find me on:
 

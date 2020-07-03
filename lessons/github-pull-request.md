@@ -18,7 +18,7 @@ Since we have made some experimental changes, let's open a pull request suggesti
 
 ## Open A Pull Request
 
-- Go to our experimental branch.
+- Go to our experimental branch in Github.
 - Click on "new pull request" button.
 - Click on "Create pull request" button.
 
