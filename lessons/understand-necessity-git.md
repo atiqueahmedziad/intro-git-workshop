@@ -9,8 +9,8 @@ section: "Understanding The Necessity"
 ## Why "understanding the necessity" is necessary ?
 
 Understanding the necessity of learning anything pushes us to learn that thing perfectly. I do believe before learning anything new we should ask ourselves a lot of "why/what" questions like - Why should we learn it? Is learning that thing solves any of our existing problems? What are the real-world applications of learning that thing? etc..
-The answers for the above questions may help us to understand the importance of learning a new thing.
-In this workshop, we will be learning about Git and Github. Before starting learning about them, let's understand why do we actually need it? This is one of our objectives for this workshop too. For better understanding, I will be demonstrating one of my projects that got the benefit of using Git and Github.
+The answers to the above questions may help us to understand the importance of learning a new thing.
+In this workshop, we will be learning about Git and Github. Before starting learning about them, let's understand why do we actually need it? This is one of our objectives of this workshop too. For better understanding, I will be demonstrating one of my projects that got the benefit of using Git and Github.
 
 ## Problems we often face
 
