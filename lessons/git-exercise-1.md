@@ -1,6 +1,6 @@
 ---
 path: "/git-exercise-part-1"
-title: "Exercise"
+title: "Git Exercise Part-1"
 order: "3E"
 description: "Git Basics"
 section: "Git Basics: Part-1"
