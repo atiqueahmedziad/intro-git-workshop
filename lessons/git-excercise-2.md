@@ -6,3 +6,13 @@ description: "Git Basics"
 section: "Git Basics: Part-2"
 ---
 
+**Let's resolve the merge conflicts of our own pull requests ;-)**
+
+### Prize
+
+#### A Cool Mozilla Firefox Badge OR Firefox Sticker.
+
+First 7 people to do the exercise will get this cool badge.
+
+![firefox-badge](images/firefox-badge.jpg)
+![firefox-sticker](images/sticker-firefox.jpg)

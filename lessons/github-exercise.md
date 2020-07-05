@@ -26,7 +26,7 @@ For this exercise, what you need to do -
 
 #### A Cool Mozilla Firefox Badge OR Firefox Sticker.
 
-First 10 people to do the exercise will get this cool badge. Rest will get a nice Firefox Sticker.
+First 7 people to do the exercise will get this cool badge. Rest will get a nice Firefox Sticker.
 
 ![firefox-badge](images/firefox-badge.jpg)
 ![firefox-sticker](images/sticker-firefox.jpg)
