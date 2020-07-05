@@ -52,6 +52,13 @@
 </ul>
 <p>We can compare it like the way we deal with a note book. Suppose, we have a note book containing the solution of some math problems. We should always like to keep our note book clean. So, before we write a new solution in our note book, we write the solution somewhere else and and verify it. After verifying the solution is correct we put it into the note book. In summery what we did is -</p>
 <p>Note Book (master branch) -> Open new branch named <code class="language-text">new solution</code> - <code class="language-text">git checkout -b new-solution</code> -> we worked on new-solution branch until we verified that our solution is correct -> Once solution is verified, we put the new solution into the note book (master branch) by - <code class="language-text">git merge new-solution</code></p>
+<h2 id="create-a-branch"><a href="#create-a-branch" aria-label="create a branch permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create A Branch</h2>
+<p>Creating a new branch just create new pointer to the same commit you are currently on.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> branch new-branch-name</code></pre></div>
+<h2 id="switching-to-a-branch"><a href="#switching-to-a-branch" aria-label="switching to a branch permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Switching To A Branch</h2>
+<p>To switch to an existing branch, we run the following command:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> checkout new-branch-name</code></pre></div>
+<h3 id="3-way-merge"><a href="#3-way-merge" aria-label="3 way merge permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3 Way Merge</h3>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;"
@@ -69,8 +76,8 @@
   ></span>
   <img
         class="gatsby-resp-image-image"
-        alt="git branch"
-        title="git branch"
+        alt="git 3 Way Merge"
+        title="git 3 Way Merge"
         src="/intro-git-workshop/static/664e8633fb8340051b758b473e966367/34e8a/git-branch.png"
         srcset="/intro-git-workshop/static/664e8633fb8340051b758b473e966367/d4214/git-branch.png 150w,
 /intro-git-workshop/static/664e8633fb8340051b758b473e966367/135ae/git-branch.png 300w,
@@ -81,12 +88,36 @@
       />
   </a>
     </span></p>
-<h2 id="create-a-branch"><a href="#create-a-branch" aria-label="create a branch permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create A Branch</h2>
-<p>Creating a new branch just create new pointer to the same commit you are currently on.</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> branch new-branch-name</code></pre></div>
-<h2 id="switching-to-a-branch"><a href="#switching-to-a-branch" aria-label="switching to a branch permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Switching To A Branch</h2>
-<p>To switch to an existing branch, we run the following command:</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> checkout new-branch-name</code></pre></div>
+<h3 id="fast-forward-merge"><a href="#fast-forward-merge" aria-label="fast forward merge permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fast Forward Merge</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/fe87b/fast-forward-merge.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 51.03969754253308%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACeElEQVQoz2VSS0+TURAdPkotKmiCYQGNKzR2pXFZjC/ARN1o4kY3aoyGP2DcuBBckKg0Yh+0BVqgL/oQ2qKCxIQoWFBEbBpAKy9pESjWUiioMeY4Xz/jQhcn986duTNzzgzJbvdCuD8EwTAGoX4QwoPXyG2dhupWN6p0Azipf4FD9f1Q1vaAPAkInuX/4V4GPUxCYXoPEmxzHLgI8vKjKy7Bm8Au/SjK2iawzzaB3c0RFDSGQYFVkP9fpEBdjO51bLHOgMj3lY0NyRlY4/umdO9Mgjq4kHkS5FuRbH+asSYlEBFYBwUzEp58h6w9BtreFoXc+5kf2RlIQ+GYQU7nF9CjTQi+ZeQ3jSAnWygDuW8JCk9cKsyx8o44tjpmsc02jXzXJxQaIyCNpgFXtHaQZQqF+hCcZgPKTX1sx7DX4sclxw3saBlmew7VBifqmtpBulGQI4bGC9eQqlIhev4oEmcOou94BUjdOgxVx3iWjoI7OGUfRIkryhTTKPJMYr+nBwovd9WZwgFnGEecb7Iai5Qr6rpQfVOLyzVmXK0x4dx1I2to+chaLXD785C55jl4BTlMXx5IIVek1pWBLMj0gqt/qeaJNvvp8TfW7iefP0BPf3Ee1pr0PD3LBwaPXM/VXYvSYPhjVvRA5k8ihn9DQvaeliAOh7un4Bpk9gVQufUlVPZ3PMkk8txxnGh7jmJeFXHnxLPS0g+5cxbkTkDpCmGPu587WcquWYExjBJzGEpLBKXWcRTdC4HqNAZcbHCCmqewUzcEm9kMtYGHYp2HWtcLg1aHYuMrUEsMx1r0OGu/C9KOsT+K0jsDOGwcxWnrW1RawyirfYbfirYAriS06H4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="git fast forward Merge"
+        title="git fast forward Merge"
+        src="/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/34e8a/fast-forward-merge.png"
+        srcset="/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/d4214/fast-forward-merge.png 150w,
+/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/135ae/fast-forward-merge.png 300w,
+/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/34e8a/fast-forward-merge.png 600w,
+/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/fea0e/fast-forward-merge.png 900w,
+/intro-git-workshop/static/32b57e4db4a45daf6e2d9c12c22ddc5b/fe87b/fast-forward-merge.png 1058w"
+        sizes="(max-width: 600px) 100vw, 600px"
+      />
+  </a>
+    </span></p>
 <h2 id="merge-a-branch"><a href="#merge-a-branch" aria-label="merge a branch permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Merge A Branch</h2>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> merge branch-name</code></pre></div>
 <h2 id="delete-a-local-branch"><a href="#delete-a-local-branch" aria-label="delete a local branch permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Delete A Local Branch</h2>
