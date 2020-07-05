@@ -10,9 +10,8 @@ section: "Git Basics: Part-2"
 
 ### Prize
 
-#### A Cool Mozilla Firefox Badge OR Firefox Sticker.
+#### A Cool Mozilla Firefox Badge.
 
 First 7 people to do the exercise will get this cool badge.
 
 ![firefox-badge](images/firefox-badge.jpg)
-![firefox-sticker](images/sticker-firefox.jpg)
