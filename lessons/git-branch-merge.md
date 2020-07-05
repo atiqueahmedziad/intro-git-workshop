@@ -15,8 +15,6 @@ We can compare it like the way we deal with a note book. Suppose, we have a note
 
 Note Book (master branch) -> Open new branch named `new solution` - `git checkout -b new-solution` -> we worked on new-solution branch until we verified that our solution is correct -> Once solution is verified, we put the new solution into the note book (master branch) by - `git merge new-solution`
 
-![git branch](images/git-branch.png)
-
 ## Create A Branch
 
 Creating a new branch just create new pointer to the same commit you are currently on.
@@ -32,6 +30,14 @@ To switch to an existing branch, we run the following command:
 ```shell
 $ git checkout new-branch-name
 ```
+
+### 3 Way Merge
+
+![git 3 Way Merge](images/git-branch.png)
+
+### Fast Forward Merge
+
+![git fast forward Merge](images/fast-forward-merge.png)
 
 ## Merge A Branch
 
