@@ -26,6 +26,6 @@ For this exercise, what you need to do -
 
 #### A Cool Mozilla Firefox Badge.
 
-First 15 people to do the exercise will get this cool badge.
+First 10 people to do the exercise will get this cool badge.
 
 ![firefox-badge](images/firefox-badge.jpg)
