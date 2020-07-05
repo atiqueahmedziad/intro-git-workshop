@@ -22,7 +22,7 @@ If the project owner likes your work, they might pull your fix into the original
 
 ## Fork A Repository
 
-- Go to this repository: url
+- Go to this repository: https://github.com/octocat/Spoon-Knife
 - On top right corner, you will find the `fork` icon. Click on it.
 
 Upon Fork is done, it will take you to the forked repository.
@@ -32,9 +32,15 @@ Upon Fork is done, it will take you to the forked repository.
 To clone a repository, you will have to use the following command:
 
 ```shell
-$ git clone <forked-repository-url>
+$ git clone https://github.com/your-username/Spoon-Knife.git
 ```
 
 This will download the forked repository in your pc.
+
+### Enter into the repository
+
+```shell
+$ cd Spoon-Knife
+```
 
 [github-fork]: https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo

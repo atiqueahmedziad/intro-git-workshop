@@ -6,4 +6,12 @@ description: "Git Basics"
 section: "Git Basics: Part-2"
 ---
 
-incoming!
+`git pull` and `git rebase` are not interchangeable, but they are closely connected.
+
+`git pull` does `git fetch` **+** `git merge`
+
+`git rebase` is used after using `git fetch`. But that can also be done using `git pull --rebase` which does `git fetch` **+** `git rebase` behind the scene.
+
+I personally prefer doing work in small chunks. So, to import update from remote repository I use `git fetch` first and then `git rebase`. Also, rebasing is preferable mostly for clean commit history.
+
+![git workflow](images/git-data-transport.png)

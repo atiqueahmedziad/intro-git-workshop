@@ -7,10 +7,13 @@ section: "Github Basics"
 ---
 
 Since we have cloned a repository into our local machine, lets make some local changes in it.
+Before starting to make changes -
+
+- Open a new branch.
 
 Once we are doing with making changes, do the following -
 
-- add the changes to index/ staging area.
+- add the changes to index/staging area.
 - commit the the changes.
 - push the changes in your remote forked repository.
 
