@@ -14,11 +14,11 @@ For this exercise, what you need to do -
 
 - Go to this repository: https://github.com/atiqueahmedziad/present-today
 - Fork it and clone it in Desktop(location) of your pc.
-- Enter the directory. Hint: `cd present-today`
-- Make a new branch.
+- Enter into the directory name `files`. Hint: `cd present-today/files`
+- Make a new branch with name `my-file`.
 - Create a text file with your name. It could be blank or you may put information about yourself if you want. Hint: `your-name.txt`
 - Add the change in stage/index area.
-- Commit the change
+- Commit the change.
 - Push the branch in the remote.
 - Send a pull request.
 

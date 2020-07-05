@@ -1,7 +1,7 @@
 ---
 path: "/gitignore"
 title: ".gitignore File"
-order: "5C"
+order: "5D"
 description: "Git Basics"
 section: "Git Basics: Part-2"
 ---
