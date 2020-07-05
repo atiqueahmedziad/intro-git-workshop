@@ -6,4 +6,3 @@ description: "Git Basics"
 section: "Git Basics: Part-2"
 ---
 
-incoming!
