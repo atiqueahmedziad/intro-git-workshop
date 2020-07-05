@@ -41,14 +41,6 @@ If you do want to deploy this to GitHub Pages with GitHub Actions, you need to d
 1. Put that token in your repos secrets. Click the Settings tab and paste your access token in the Secrets tab with the key `ACCESS_TOKEN`.
 1. Now once you commit your code, it should automatically deploy your GitHub Pages site should deploy automatically!
 
-## Example Sites
-
-- [This repo itself](https://btholt.github.io/gatsby-course-starter/)
-- [Complete Intro to Containers](https://btholt.github.io/complete-intro-to-containers/)
-- [Complete Intro to React v5](https://btholt.github.io/complete-intro-to-react-v5/)
-- [Complete Intro to Web Dev v2](https://btholt.github.io/intro-to-web-dev-v2/)
-- [Four Semesters of Computer Science in Five Hours Part II](https://btholt.github.io/four-semesters-of-cs-part-two/)
-
 ## CSV
 
 If you run `npm run csv`, a CSV will be generated with all the various lessons' frontmatter outputted to `public/lessons.csv`. You can change the path by changing the `OUTPUT_CSV_PATH` environment variable.
